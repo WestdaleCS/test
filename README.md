@@ -31,19 +31,19 @@
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#authentication">Authentication</a></li>
-        <li><a href="#index-page">Index Page</a></li>
-        <li><a href="#intake-calculate">Intake Calculator</a></li>
-        <li><a href="#profile">User Profile</a></li>
+        <li><a href="#intake-calculator">Intake Calculator</a></li>
+        <li><a href="#user-profile">User Profile</a></li>
       </ul>
     </li>
     <li><a href="#file-structure">File Structure</a></li>
     <li>
-      <a href="#distinctiveness-complexity">Distinctiveness and Complexity</a>
+      <a href="#distinctiveness-and-complexity">Distinctiveness and Complexity</a>
       <ul>
         <li><a href="#distinctiveness">Distinctiveness</a></li>
         <li><a href="#complexity">Complexity</a></li>
       </ul>
     </li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -54,7 +54,7 @@
 
 Many friends of mine want to eat healthy. But they simply do not know where to start. I want to make an intake-related application - the one beginners would enjoy. This app is it.
 
-* It is **easy to understand**. Foods are divided into 5 simple groups in most of this application.
+* It is **easy to understand**. Foods are divided into 5 simple types in most of this application.
 * It gives time to **reflect**. Users would gain or improve self-acknowledgement when inputing the amount they eat.
 * It has no social network or other features. Users may **not be distracted** while enjoying their very own personal experience.
 
@@ -113,7 +113,7 @@ Below is a list of items you will need to use the web application. Click on the 
 
 [![app-index-screenshot][index]](#usage)
 
-### Authentication {#authentication}
+### Authentication
 
 * If new to the site, navigate to register page.
     [![index-register-screenshot][index-register]](#authentication)
@@ -131,27 +131,27 @@ Below is a list of items you will need to use the web application. Click on the 
     [![confirm-password-screenshot][confirm-password]](#authentication)
     * Go back to login page and log in.
 
-### Intake Calculator {#intake-calculate}
+### Intake Calculator
 
 * To calculate your intake by groups or subgroups, log in and navigate to intake calculator.
     [![index-calculate-screenshot][index-calculate]](#intake-calculate)
-    * There are five main groups and more than 100 subgroups.
+    * There are 24 main groups and more than 100 subgroups.
     [![calculate-groups-screenshot][calculate-groups]](#intake-calculate)
     * Click on any of the two choices, the page below will show up.
     [![calculate-screenshot][calculate]](#intake-calculate)
     * Choose the food name in the first column, fill in the amount in the second. Click on the add and delete buttons on the right side to add or delete rows. Notice the delete button is diabled for the very first row. All fields must be filled to submit the form, or the prompt will stop you from submittion.
     * Click on the verify button to verify, the OK button to confirm, and the submit button to submit. After clicking the OK button, your input cannot be adjusted.
     [![calculate-submit-screenshot][calculate-submit]](#intake-calculate)
-    * The result including a table, a sample pie chart to compare with, another pie chart of your own intake will show up.
+    * The result including a table, a sample pie chart to compare with, and another pie chart of your own intake.
     [![calculate-result-screenshot][calculate-result]](#intake-calculate)
     * Click on the record data button to record the values by groups or subgroups in your profile, and you will be taken to the index page.
     [![result-record-screenshot][result-record]](#intake-calculate)
 
-### User Profile {#profile}
+### User Profile
 
 * Click on your username to go into your profile.
     [![index-profile-screenshot][index-profile]](#profile)
-    * Click on the previous and next icons in left-bottom corner of the page to check more of your records. Notice the previous or next button would not show up if on the first or last page of records.
+    * Click on the previous and next icons in the bottom-left corner of the page to check more of your records. Notice the previous or next button would not show up if on the first or last page of records.
     [![profile-screenshot][profile]](#profile)
     * To search for records by time, type in numbers in the input field, click on the arrow to classify if it's for day, month, or year. Prompt will show up for invalid input. Finally, click on search button to search.
     [![profile-search-screenshot][profile-search]](#profile)
@@ -163,7 +163,7 @@ Below is a list of items you will need to use the web application. Click on the 
 
 
 <!-- FILE STRUCTURE -->
-## File Structure {#file-structure}
+## File Structure
 
 Below is a list of files and folders created by me. Click on them to see details.
 
@@ -176,27 +176,24 @@ Below is a list of files and folders created by me. Click on them to see details
         <details>
           <summary><a href="#static">static/diet</a></summary>
           <ul>
-            <li><a href="#food-json">food.json</a></li>
-            <li><a href="#carousel-images">fruit-fade-3.jpg</a></li>
-            <li><a href="#carousel-images">vegies.jpg</a></li>
-            <li><a href="#carousel-images">protein.jpg</a></li>
-            <li><a href="#carousel-images">grain-1.jpg</a></li>
-            <li><a href="#intake-js">intake.js</a></li>
-            <li><a href="#password-js">password.js</a></li>
-            <li><a href="#profile-js">profile.js</a></li>
-            <li><a href="#styles-css">styles.css</a></li>
+            <li><a href="#food">food</a></li>
+            <li><a href="#carousel-images">carousel images</a></li>
+            <li><a href="#intake">intake</a></li>
+            <li><a href="#password">password</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#styles">styles</a></li>
           </ul>
         </details>
         <details>
-          <summary><a href="#templates">templates/diet</a></summary>
+          <summary><a href="#templates">templates</a></summary>
           <ul>
-            <li><a href="#index-html">index.html</a></li>
-            <li><a href="#intake-html">intake.html</a></li>
-            <li><a href="#layout-html">layout.html</a></li>
-            <li><a href="#login-html">login.html</a></li>
-            <li><a href="#password-html">password.html</a></li>
-            <li><a href="#profile-html">profile.html</a></li>
-            <li><a href="#register-html">register.html</a></li>
+            <li><a href="#index">index</a></li>
+            <li><a href="#intake">intake</a></li>
+            <li><a href="#layout">layout</a></li>
+            <li><a href="#login">login</a></li>
+            <li><a href="#password">password</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#register">register</a></li>
           </ul>
         </details>
         <li><a href="#models">models</a></li>
@@ -208,21 +205,21 @@ Below is a list of files and folders created by me. Click on them to see details
   </ul>
 </details>
 
-### diet {#diet}
+### diet
 
 The folder that contains all files of diet application
 
-#### static/diet {#static}
+#### static
 
 The folder that contains all static files for diet
 
-###### [food.json](/diet/static/diet/food.json) {#food-json}
+###### [food](/diet/static/diet/food.json)
 A json file as data source downloaded from [foodb.ca](https://foodb.ca/downloads). It contains all foods' information including names, scientific names, groups, subgroups, descriptions, etc.
 
-###### [carousel images](/diet/static/diet) {#carousel-images}
+###### [carousel images](/diet/static/diet)
 JPG images used for the carousel of index page
 
-###### [intake.js](/diet/static/diet/intake.js) {#intake-js}
+###### [intake](/diet/static/diet/intake.js)
 The JavaScript file attached to intake.html
 
 ```sh
@@ -260,8 +257,8 @@ function delete_row(current_row)
 ```
 The function deletes current row. If current row is the final row, it renews the listeners attached to the last second row and changes the row's button group's visibility.
 
-###### [password.js](/diet/static/diet/password.js) {#password-js}
-The JavaScript file attached to password.html
+###### [password](/diet/static/diet/password.js)
+The JavaScript file attached to [password.html](/diet/templates/diet/password.html)
 
 ```sh
 function load_verify()
@@ -280,7 +277,7 @@ function load_password(user_id)
 ```
 It hides the verification view and reveals the actual password view, and attaches a listener to the submit button. The listener checks for equality of two password inputs, and fetches new password and user id to the view with PUT method.
 
-###### [profile.js](/diet/static/diet/profile.js) {#profile-js}
+###### [profile](/diet/static/diet/profile.js)
 The JavaScript file attached to profile.html
 
 ```sh
@@ -297,79 +294,85 @@ document.querySelector('select').onchange = () => search_record(
 
 function search_record(val1)
 ```
-When the select value of the search bar is onchange, the function takes val1, which is one of day, month, or year of user choice, and verifies user input. If valid, give the search form an action with type (val1), searchInput, and page number.
+When the select value of the search bar is onchange, the function takes val1, which is one of day, month, or year of user choice, and verifies user input. If valid, give the search form an action with type (val1), search bar text input, and page number.
 
-###### [styls.css](/diet/static/diet/styles.css) {#styles-css}
+###### [styles](/diet/static/diet/styles.css)
 The css file that provides style specifications in the range of the app
 
-#### templates/diet {#templates}
+#### templates
 
 The folder that contains all HTML templates for diet
 
-###### [index.html](/diet/templates/diet/index.html) {#index-html}
+###### [index](/diet/templates/diet/index.html)
 Contains one carousel view that has four slides with a heading and a paragraph of quotes for each
 
-###### [intake.html](/diet/templates/diet/intake.html) {#intake-html}
+###### [intake](/diet/templates/diet/intake.html)
 Contains a form view of rows, a verify button, and a submit button, and a result view of one table and two canvases
 
-###### [layout.html](/diet/templates/diet/layout.html) {#layout-html}
+###### [layout](/diet/templates/diet/layout.html)
 Contains a navigation bar and a body-class div for body and a block for scripts
 
-###### [login.html](/diet/templates/diet/login.html) {#login-html}
+###### [login](/diet/templates/diet/login.html)
 Contains a heading, a message if passed, a login form, and two redirecting links to registration, and password changing respectively
 
-###### [password.html](/diet/templates/diet/password.html) {#password-html}
+###### [password](/diet/templates/diet/password.html)
 Contains a verify view of username and email input fields, and a password view of two password input fields, and buttons to "submit forms"
 
-###### [profile.html](/diet/templates/diet/profile.html) {#profile-html}
+###### [profile](/diet/templates/diet/profile.html)
 If the user has records, a search bar, a table of records, a pagination button group, a button to show chart, and a canvas for chart are shown; otherwise, show a message
 
-###### [register.html](/diet/templates/diet/register.html) {#register-html}
+###### [register](/diet/templates/diet/register.html)
 Contains a heading, a message if exists, a form to register, and a link to redirect to login page
 
-#### [models](/diet/models.py) {#models}
-There are five classes created. The data of Food, Foodgroup, and Subgroup comes from Food.json file under static/diet folder. For all the classes below, default primary keys of id would not be mentioned.
+#### [models](/diet/models.py)
+There are five classes created. The data of Food, Foodgroup, and Subgroup comes from [food.json](/diet/static/diet/food.json) file under static/diet folder. For all the classes below, default primary keys of id would not be mentioned.
 
-<mark>User class</mark>
+> User class
+
 The standard user class as a child of django user model
 
-<mark>Food class</mark>
-The class used in first columns of all rows in Intake Calculator form. Contains five fields:
+> Food class
+
+The class used in first columns of all rows in [Intake Calculator](#intake-calculator)
+form. Contains five fields:
 
 * *name*: a text field of food names that cannot be null
 * *scientific_name*: a text field that can be null
-* *descrption*: a text field 
+* *description*: a text field 
 * *group_id*: an integer field that contains the primary keys of Foodgroup objects
 * *subgroup_id*: an integer field that contains the primary keys of Subgroup objects. If a Food object has its subgroup_id as 200, it does not belong to any subgroup.
 
-<mark>Foodgroup class</mark>
-The class of main food groups. Contains one field:
+> Foodgroup class
+
+The class of main food groups with 24 objects. Contains one field:
 
 * *group_name*: an unique text field
 
-<mark>Subgroup class</mark>
-The class of minor food groups. Contains one field:
+> Subgroup class
+
+The class of minor food groups with 119 objects. Contains one field:
 
 * *name*: an unique text field
 
-<mark>Record class</mark>
+> Record class
+
 The class of user intake records. It is used for user profile, searching and comparing. Contains seven fields:
 
 * *user_id*: an integer field of user ids
-* *time*: a date-time field that is aute-added when object is created
+* *time*: a date-time field that is auto-added when object is created
 * *vf_amt*: an integer field of vegetable and fruit intake amount
 * *protein_amt*: an integer field of protein intake amount
 * *grain_amt*: an integer field of grain intake amount
 * *liquid_amt*: an integer field of liquid intake amount
 * *other_amt*: an integer field of other intake amount
 
-#### [urls](/diet.urls.py) {#urls}
+#### [urls](/diet.urls.py)
 There are nine routes in total:
 
 ```sh
 path('', views.index, name='index')
 ```
-The route above is used as default when users open up the app url, log or register them in, and after record some intaks.
+The route above is used as default when users open up the app url, log or register them in, and after they record their intake.
 
 ```sh
 path('login', views.login_view, name='login'),
@@ -389,9 +392,9 @@ This first path directs users to the intake page, the second as an API route is 
 path('profile', views.profile, name='profile'),
 path('profile/search', views.profile, name='search')
 ```
-The first path is used when users record data or go into their profile, the second one is for them to search records according to specific days, months, or years.
+The first path is used when users record data or go into their profiles, the second one is for them to search records according to specific days, months, or years.
 
-#### [views](/diet/views.py) {#views}
+#### [views](/diet/views.py)
 
 | Function Name | Request Method | Parameters | Return Value | Decorators | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -410,30 +413,30 @@ The first path is used when users record data or go into their profile, the seco
 | | GET | | render login page | | |
 | logout_view | GET | request | render index page | @login_required | none |
 
-### images {#images}
+### images
 
-The folder that contains all images for README.md
+The folder that contains all images for [README.md](/README.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- DISTINCTIVENESS AND COMPLEXITY -->
-## Distinctiveness and Complexity {#distinctiveness-complexity}
+## Distinctiveness and Complexity
 
 ### Distinctiveness
-1. I use chart.js in this application and provide a much more elegant <mark>visual presentation</mark> of data. The combination separates this project from all the old ones.
-2. The usage of <mark>bootstrap carousel classes</mark> adds a new touch on the visuals and technicals.
-3. The function of <mark>adding and deleting row</mark> in the same page without reloading is an entirely new feature that did not appear in any of the projects in the past.
-4. The <mark>search bar</mark> in profile page puts button, select, and input tags in one group. The listener attached to the select tag would act differently depends on user choices. 
-5. It is an interesting trial using <mark>normal route and API route on one view function</mark>, after considering how similar the definitions and methods are.
+1. I use chart.js in this application and provide a much more elegant **visual presentation** of data. The combination separates this project from all the old ones.
+2. The usage of **bootstrap carousel classes** adds a new touch on the visuals and technicals.
+3. The function of **adding and deleting rows** in the same page without reloading is an entirely new feature that did not appear in any of the projects in the past.
+4. The **search bar** in profile page puts button, select, and input tags in one group. The listener attached to the select tag would act differently depends on user choices. 
+5. It is an interesting trial using **normal route and API route on one view function**, after considering how similar the definitions and methods are.
 
 ### Complexity
 The project overall is very complex while using new features and new external classes like chart.js.
 
 <ins>Some new features:</ins>
 * Password Changing
-* External Database Usage: three models out of five have their data being transfered from foods.ca using Python methods related to files 
+* External Database Usage: three models out of five have their data being transfered from [food.json](/diet/static/diet/food.json) using Python methods related to files 
   ```sh
   for line in open('food.json', 'r', encoding='utf-8'):
     line = json.loads(line)
@@ -443,10 +446,25 @@ The project overall is very complex while using new features and new external cl
 * Carousel
 
 <ins># of models:</ins> 5
+
 <ins># of js functions:</ins> 10
+
 <ins># of html pages:</ins> 7
+
 <ins># of urls:</ins> 9
+
 <ins># of views:</ins> 9
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Elyn Huang - [@github](https://github.com/huang9185) - helyn20012@outlook.com
+
+Project Link: [https://github.com/me50/huang9185/blob/web50/projects/2020/x/capstone](https://github.com/me50/huang9185/blob/web50/projects/2020/x/capstone)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
