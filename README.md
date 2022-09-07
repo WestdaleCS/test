@@ -43,7 +43,6 @@
         <li><a href="#complexity">Complexity</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -454,17 +453,6 @@ The project overall is very complex while using new features and new external cl
 <ins># of urls:</ins> 9
 
 <ins># of views:</ins> 9
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Elyn Huang - [@github](https://github.com/huang9185) - helyn20012@outlook.com
-
-Project Link: [https://github.com/me50/huang9185/blob/web50/projects/2020/x/capstone](https://github.com/me50/huang9185/blob/web50/projects/2020/x/capstone)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
